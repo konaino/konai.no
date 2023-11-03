@@ -10,6 +10,13 @@
     animation: gradient-animation 30s ease-in-out alternate infinite;
 }
 .theme-dark .navbar-vertical .navbar-nav .nav-link.active, .theme-dark .navbar-vertical .navbar-nav .nav-link:hover {
-    color: #1fb5bc;
+    color: #1fb5bc!important;
     background: 0 0;
+}
+.theme-dark {
+    --tblr-primary: #4d87d4!important;
+
+
+.theme-dark .btn:hover {
+    color: var(--tblr-btn-hover-color);
 }
