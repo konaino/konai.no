@@ -1,4 +1,11 @@
 .banner-bg {
-  background: linear-gradient(to bottom right, #add8e6, #00008b)!important;
+    background: linear-gradient(120deg, 
+                                #b3f3e3 0%,  /* Original greenish */
+                                #a6ede1 25%, /* Darker greenish */
+                                #89e7d9 50%, /* Even darker greenish */
+                                #c0e6f6 75%, /* Original blueish */
+                                #a3d2e1 100% /* Darker blueish */
+                                );
+    background-size: 200% 200%;
+    animation: gradient-animation 30s ease-in-out alternate infinite;
 }
-
