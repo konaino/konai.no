@@ -24,4 +24,7 @@
     --tblr-btn-disabled-color: var(--tblr-primary-fg);
     --tblr-btn-box-shadow: var(--tblr-shadow-button),var(--tblr-shadow-button-inset);
 }
-
+.theme-dark .navbar-vertical .navbar-nav .nav-link.active, .theme-dark .navbar-vertical .navbar-nav .nav-link:hover {
+    color: #1fb5bc;
+    background: 0 0;
+}
