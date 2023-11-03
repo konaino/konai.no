@@ -9,3 +9,16 @@
     background-size: 200% 200%;
     animation: gradient-animation 30s ease-in-out alternate infinite;
 }
+
+/* Assuming .dark is the class applied when dark theme is active */
+
+.dark .btn-primary:hover {
+    background-color: #b3f3e3; /* greenish color from the logo */
+    border-color: #c0e6f6; /* blueish color from the logo */
+}
+
+.dark .btn-primary:active {
+    background-color: #c0e6f6; /* blueish color from the logo */
+    border-color: #b3f3e3; /* greenish color from the logo */
+}
+
