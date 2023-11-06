@@ -9,8 +9,12 @@
     background-size: 200% 200%;
     animation: gradient-animation 30s ease-in-out alternate infinite;
 }
-@media (max-width: 479px)
-.h1 .font-bold {
-    font-size: 14vw;
-    font-weight: 400;
+@media (max-width: 479px){
+    h1 {
+        font-size: 12vw;
+        font-weight: 400;
+    }
+    .font-bold {
+        font-weight: 400;
+    }
 }
